@@ -1,0 +1,101 @@
+[INFO  - 2017-04-17T08:58:52.621Z] GhostDriver - Main - running on port 18070
+[INFO  - 2017-04-17T08:58:53.148Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T08:58:53.148Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T08:58:53.148Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T08:58:53.149Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 14cb1670-234c-11e7-8236-7f3f14509477
+[ERROR - 2017-04-17T08:58:55.438Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492419535420
+[ERROR - 2017-04-17T08:58:56.756Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492419536724
+[ERROR - 2017-04-17T08:58:57.939Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492419537910
+[ERROR - 2017-04-17T08:58:59.736Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Sys.WebForms.PageRequestManager')
+[ERROR - 2017-04-17T08:58:59.736Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  Application_Load (https://ihelper.mts.by/selfcare/welcome.aspx:789)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseEvent (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseLoad (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _doInitialize (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  p (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _2Pass (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  F (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  d (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  c (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+[ERROR - 2017-04-17T08:59:00.713Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Sys.WebForms.PageRequestManager')
+[ERROR - 2017-04-17T08:59:00.713Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  Application_Load (https://ihelper.mts.by/selfcare/service-sms.aspx:1023)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseEvent (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseLoad (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _doInitialize (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  p (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _2Pass (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  F (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  d (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  c (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+[ERROR - 2017-04-17T08:59:01.310Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: ReferenceError: Can't find variable: WebForm_DoPostBackWithOptions
+[ERROR - 2017-04-17T08:59:01.310Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  onclick (https://ihelper.mts.by/selfcare/service-sms.aspx:355)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-04-17T08:59:01.903Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Sys.WebForms.PageRequestManager')
+[ERROR - 2017-04-17T08:59:01.904Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  Application_Load (https://ihelper.mts.by/selfcare/sms-status.aspx:779)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseEvent (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseLoad (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _doInitialize (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  p (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _2Pass (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  F (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  d (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  c (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+[ERROR - 2017-04-17T08:59:05.381Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Sys.WebForms.PageRequestManager')
+[ERROR - 2017-04-17T08:59:05.381Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  Application_Load (https://ihelper.mts.by/selfcare/sms-status.aspx:779)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseEvent (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseLoad (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _doInitialize (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  p (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _2Pass (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  F (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  d (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  c (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+[ERROR - 2017-04-17T08:59:08.860Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Sys.WebForms.PageRequestManager')
+[ERROR - 2017-04-17T08:59:08.860Z] Session [14cb1670-234c-11e7-8236-7f3f14509477] - page.onError - stack:
+  Application_Load (https://ihelper.mts.by/selfcare/sms-status.aspx:779)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseEvent (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  raiseLoad (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _doInitialize (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  (anonymous function) (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  p (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  _2Pass (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  F (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  d (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+  c (https://ihelper.mts.by/Selfcare/ScriptResource.axd?d=S6uoKHuDz_D4dtXs9KDCmf9gtQDLjOrjmDbG-y7hPBPlEWaKhs3DXr4plJe0ZYj5rEnxL8EeDLFFH8lp6VGg-qlHw1-jTCUi_UWFoUVxe8IeZItC0&t=ffffffffb01e0e08:2)
+[INFO  - 2017-04-17T08:59:11.775Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-19T15:18:51.822Z] GhostDriver - Main - running on port 4641
+[INFO  - 2017-04-19T15:18:52.298Z] Session [7ef8cb50-2513-11e7-9972-531a4eb35e29] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-19T15:18:52.298Z] Session [7ef8cb50-2513-11e7-9972-531a4eb35e29] - page.customHeaders:  - {}
+[INFO  - 2017-04-19T15:18:52.298Z] Session [7ef8cb50-2513-11e7-9972-531a4eb35e29] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-19T15:18:52.299Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7ef8cb50-2513-11e7-9972-531a4eb35e29
+[ERROR - 2017-04-19T15:18:55.006Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492615134950
+[ERROR - 2017-04-19T15:18:56.118Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492615136068
+[ERROR - 2017-04-19T15:18:57.195Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492615137161
+[ERROR - 2017-04-19T15:18:58.288Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492615138232
+[ERROR - 2017-04-19T15:18:59.352Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492615139329
