@@ -15,7 +15,7 @@ public class TextWindow extends JFrame {
     private JTextField jTextField;
     private JTextArea jTextArea;
     private JButton jButton;
-    private JList jList;
+    private JComboBox jComboBox;
     private JScrollPane jScrollPane;
     private String[] data = {"29", "33", "44", "25"};
 
@@ -41,10 +41,15 @@ public class TextWindow extends JFrame {
             }
         });
         this.add(jButton, null);
-        jList = getjList(data);
-        jScrollPane = getjScrollPane(jList);
-        this.add(jScrollPane, null);
-        this.add(jList, null);
+        jComboBox = getjComboBox(data);
+        jComboBox.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                phoneCode = (String)jComboBox.getSelectedItem();
+            }
+        });
+        //jScrollPane = getjScrollPane(jComboBox);
+        //this.add(jScrollPane, null);
+        this.add(jComboBox, null);
         this.requestFocus();
     }
 
@@ -76,7 +81,7 @@ public class TextWindow extends JFrame {
     private JTextField getJTextField() {
         if (jTextField == null) {
             jTextField = new JTextField();
-            jTextField.setBounds(86, 10, 160, 20);
+            jTextField.setBounds(106, 10, 170, 20);
 
             jTextField.addKeyListener
                     (new KeyAdapter() {
@@ -124,21 +129,19 @@ public class TextWindow extends JFrame {
         return jButton;
     }
 
-    private JList getjList(String[] data) {
-        if (jList == null) {
-            jList = new JList(data);
-            jList.setBounds(50, 10, 30, 20);
+    private JComboBox getjComboBox(String[] data) {
+        if (jComboBox == null) {
+            jComboBox = new JComboBox(data);
+            jComboBox.setBounds(50, 10, 40, 20);
         }
-        jList.setLayoutOrientation(JList.VERTICAL);
-        jList.addListSelectionListener(new SelectionHandler());
-        return jList;
+        return jComboBox;
     }
 
     private class SelectionHandler implements ListSelectionListener {
 
         public void valueChanged(ListSelectionEvent e) {
             if (!e.getValueIsAdjusting()) {
-                phoneCode = Arrays.toString(jList.getSelectedValues());
+                //phoneCode = Arrays.toString(jComboBox.getSelectedValues());
             }
         }
     }
